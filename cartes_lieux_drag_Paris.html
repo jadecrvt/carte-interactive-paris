@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_12ff5152a9113c50810aeb8a044914a9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_12ff5152a9113c50810aeb8a044914a9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_12ff5152a9113c50810aeb8a044914a9 = L.map(
+                "map_12ff5152a9113c50810aeb8a044914a9",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_37bc8bfa1281516d6e245bab4da52223 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+            var circle_marker_1533410738410941192da888b350d560 = L.circleMarker(
+                [48.861, 2.377],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_be3be3d5d6182e0d4e7beb16e3b53a9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eed26b8dce1e5d6e1628a48e595af30 = $(`<div id="html_0eed26b8dce1e5d6e1628a48e595af30" style="width: 100.0%; height: 100.0%;"><b>Bonjour Madame</b><br>Arrondissement : 11e<br>Type : DK - DQR</div>`)[0];
+            popup_be3be3d5d6182e0d4e7beb16e3b53a9b.setContent(html_0eed26b8dce1e5d6e1628a48e595af30);
+        
+
+        circle_marker_1533410738410941192da888b350d560.bindPopup(popup_be3be3d5d6182e0d4e7beb16e3b53a9b)
+        ;
+
+        
+    
+    
+            var circle_marker_cbc3386fefb615aab69c878a56b80251 = L.circleMarker(
+                [48.897, 2.383],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_ca583584c291cf1354021e22cd73dc76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a38ef59d8bf6ed6e374ab21b6478385e = $(`<div id="html_a38ef59d8bf6ed6e374ab21b6478385e" style="width: 100.0%; height: 100.0%;"><b>Cabaret Sauvage</b><br>Arrondissement : 19e<br>Type : DK - DQR</div>`)[0];
+            popup_ca583584c291cf1354021e22cd73dc76.setContent(html_a38ef59d8bf6ed6e374ab21b6478385e);
+        
+
+        circle_marker_cbc3386fefb615aab69c878a56b80251.bindPopup(popup_ca583584c291cf1354021e22cd73dc76)
+        ;
+
+        
+    
+    
+            var circle_marker_4d88bc5541ad3674237ae6c8c43b4896 = L.circleMarker(
+                [48.865, 2.373],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_11d1bbf260ea3bb034697c0abdd3b209 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f75bd84471668c6d308992688187a0fd = $(`<div id="html_f75bd84471668c6d308992688187a0fd" style="width: 100.0%; height: 100.0%;"><b>Café de Paris</b><br>Arrondissement : 11e<br>Type : MIXTE</div>`)[0];
+            popup_11d1bbf260ea3bb034697c0abdd3b209.setContent(html_f75bd84471668c6d308992688187a0fd);
+        
+
+        circle_marker_4d88bc5541ad3674237ae6c8c43b4896.bindPopup(popup_11d1bbf260ea3bb034697c0abdd3b209)
+        ;
+
+        
+    
+    
+            var circle_marker_dd9e8e8934675b8e0b313653250be84e = L.circleMarker(
+                [48.875, 2.332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_f75e8612ff3a354b43c9a098d564ec92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ee69953043be6ef6a15e2ea0b3350ae = $(`<div id="html_7ee69953043be6ef6a15e2ea0b3350ae" style="width: 100.0%; height: 100.0%;"><b>Casino de Paris</b><br>Arrondissement : 9e<br>Type : DQN</div>`)[0];
+            popup_f75e8612ff3a354b43c9a098d564ec92.setContent(html_7ee69953043be6ef6a15e2ea0b3350ae);
+        
+
+        circle_marker_dd9e8e8934675b8e0b313653250be84e.bindPopup(popup_f75e8612ff3a354b43c9a098d564ec92)
+        ;
+
+        
+    
+    
+            var circle_marker_5ddc549db815139280e09c9ebd0f8e3d = L.circleMarker(
+                [48.849, 2.336],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_0e8da1e77d973f20ce6c5fabdf05b891 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d1fb0fca6b53f3cc0d1e457a64ed5dc = $(`<div id="html_7d1fb0fca6b53f3cc0d1e457a64ed5dc" style="width: 100.0%; height: 100.0%;"><b>Cavern</b><br>Arrondissement : 6e<br>Type : DQ</div>`)[0];
+            popup_0e8da1e77d973f20ce6c5fabdf05b891.setContent(html_7d1fb0fca6b53f3cc0d1e457a64ed5dc);
+        
+
+        circle_marker_5ddc549db815139280e09c9ebd0f8e3d.bindPopup(popup_0e8da1e77d973f20ce6c5fabdf05b891)
+        ;
+
+        
+    
+    
+            var circle_marker_778716191fb311e3796b07cc66ceae0c = L.circleMarker(
+                [48.898, 2.409],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_d91644b1e05f41eb301b1647b0834180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5d77b3c09ac5fc0915d0381568c2ae5 = $(`<div id="html_b5d77b3c09ac5fc0915d0381568c2ae5" style="width: 100.0%; height: 100.0%;"><b>Chez Agnès</b><br>Arrondissement : Pantin<br>Type : DK - DQR</div>`)[0];
+            popup_d91644b1e05f41eb301b1647b0834180.setContent(html_b5d77b3c09ac5fc0915d0381568c2ae5);
+        
+
+        circle_marker_778716191fb311e3796b07cc66ceae0c.bindPopup(popup_d91644b1e05f41eb301b1647b0834180)
+        ;
+
+        
+    
+    
+            var circle_marker_4d138ac913267171b235719166268948 = L.circleMarker(
+                [48.868, 2.402],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_3f96bba7b96042d2b69e01952aebc8f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ce05705afd14170e04867349dc6aadb = $(`<div id="html_3ce05705afd14170e04867349dc6aadb" style="width: 100.0%; height: 100.0%;"><b>La Flèche d’or</b><br>Arrondissement : 20e<br>Type : DK</div>`)[0];
+            popup_3f96bba7b96042d2b69e01952aebc8f3.setContent(html_3ce05705afd14170e04867349dc6aadb);
+        
+
+        circle_marker_4d138ac913267171b235719166268948.bindPopup(popup_3f96bba7b96042d2b69e01952aebc8f3)
+        ;
+
+        
+    
+    
+            var circle_marker_80b437e3629319007aae753611014dc5 = L.circleMarker(
+                [48.862, 2.356],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_1d2e477336a41a72bf4f4e5906c19b42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62384547b66e8afa7111db1ee96f5ce0 = $(`<div id="html_62384547b66e8afa7111db1ee96f5ce0" style="width: 100.0%; height: 100.0%;"><b>La Mutinerie</b><br>Arrondissement : 3e<br>Type : DK-DQR</div>`)[0];
+            popup_1d2e477336a41a72bf4f4e5906c19b42.setContent(html_62384547b66e8afa7111db1ee96f5ce0);
+        
+
+        circle_marker_80b437e3629319007aae753611014dc5.bindPopup(popup_1d2e477336a41a72bf4f4e5906c19b42)
+        ;
+
+        
+    
+    
+            var circle_marker_f9c9f8660b016d1a00b92662a79b2379 = L.circleMarker(
+                [48.832, 2.376],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_0d942c2d6596660d2c1660fb44dabdc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d64914ad357f7fda44d23831093bdbae = $(`<div id="html_d64914ad357f7fda44d23831093bdbae" style="width: 100.0%; height: 100.0%;"><b>Petit Bain</b><br>Arrondissement : 13e<br>Type : DQN-DQR</div>`)[0];
+            popup_0d942c2d6596660d2c1660fb44dabdc9.setContent(html_d64914ad357f7fda44d23831093bdbae);
+        
+
+        circle_marker_f9c9f8660b016d1a00b92662a79b2379.bindPopup(popup_0d942c2d6596660d2c1660fb44dabdc9)
+        ;
+
+        
+    
+    
+            var circle_marker_ab0c2b35ae007b4044dfbdbbc2674801 = L.circleMarker(
+                [48.857, 2.358],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_999ff430777fdb052b840dd95d68c802 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f23a0a448cec64e707c19c8e654e2236 = $(`<div id="html_f23a0a448cec64e707c19c8e654e2236" style="width: 100.0%; height: 100.0%;"><b>Perchoir Marais</b><br>Arrondissement : 4e<br>Type : DQN</div>`)[0];
+            popup_999ff430777fdb052b840dd95d68c802.setContent(html_f23a0a448cec64e707c19c8e654e2236);
+        
+
+        circle_marker_ab0c2b35ae007b4044dfbdbbc2674801.bindPopup(popup_999ff430777fdb052b840dd95d68c802)
+        ;
+
+        
+    
+    
+            var circle_marker_e752aeaf30276df77dcfc95a6035a0ed = L.circleMarker(
+                [48.871, 2.398],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_09407d83863767b09d5de633377a6171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35e428cddee505efef38424d06759a9e = $(`<div id="html_35e428cddee505efef38424d06759a9e" style="width: 100.0%; height: 100.0%;"><b>Scenobar</b><br>Arrondissement : 20e<br>Type : DK</div>`)[0];
+            popup_09407d83863767b09d5de633377a6171.setContent(html_35e428cddee505efef38424d06759a9e);
+        
+
+        circle_marker_e752aeaf30276df77dcfc95a6035a0ed.bindPopup(popup_09407d83863767b09d5de633377a6171)
+        ;
+
+        
+    
+    
+            var circle_marker_008818203bf786a8a3800ff53c3e6e03 = L.circleMarker(
+                [48.864, 2.358],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_b808211cccc0dfb8c3e5ccba4298e672 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f667311fcef9a717f20bcf69f5990c9 = $(`<div id="html_9f667311fcef9a717f20bcf69f5990c9" style="width: 100.0%; height: 100.0%;"><b>Théâtre du Marais</b><br>Arrondissement : 3e<br>Type : DQR</div>`)[0];
+            popup_b808211cccc0dfb8c3e5ccba4298e672.setContent(html_9f667311fcef9a717f20bcf69f5990c9);
+        
+
+        circle_marker_008818203bf786a8a3800ff53c3e6e03.bindPopup(popup_b808211cccc0dfb8c3e5ccba4298e672)
+        ;
+
+        
+    
+    
+            var circle_marker_d88408db02c23539e68233ed2c926094 = L.circleMarker(
+                [48.849, 2.353],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_c12399031bd05bd7da4c4213c5f30702 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c40398a8430b476832fd14d79a6f827 = $(`<div id="html_4c40398a8430b476832fd14d79a6f827" style="width: 100.0%; height: 100.0%;"><b>Who’s</b><br>Arrondissement : 5e<br>Type : DQN</div>`)[0];
+            popup_c12399031bd05bd7da4c4213c5f30702.setContent(html_4c40398a8430b476832fd14d79a6f827);
+        
+
+        circle_marker_d88408db02c23539e68233ed2c926094.bindPopup(popup_c12399031bd05bd7da4c4213c5f30702)
+        ;
+
+        
+    
+    
+            var circle_marker_7567895703885ee5204c25b27a0720fe = L.circleMarker(
+                [48.863, 2.297],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_0d495bf4305df03cc2f84c6af76ea8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d21409c66bbf312f17ed5e56191ac19 = $(`<div id="html_2d21409c66bbf312f17ed5e56191ac19" style="width: 100.0%; height: 100.0%;"><b>Yoyo (Palais de Tokyo)</b><br>Arrondissement : 16e<br>Type : DQN</div>`)[0];
+            popup_0d495bf4305df03cc2f84c6af76ea8c9.setContent(html_2d21409c66bbf312f17ed5e56191ac19);
+        
+
+        circle_marker_7567895703885ee5204c25b27a0720fe.bindPopup(popup_0d495bf4305df03cc2f84c6af76ea8c9)
+        ;
+
+        
+    
+    
+            var circle_marker_f9967465636aa00571bc1e6838870fbe = L.circleMarker(
+                [48.868, 2.389],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_6f9e971e646e86644f03a43e136b0570 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_564868db52045672b2e1d3fbbb264f37 = $(`<div id="html_564868db52045672b2e1d3fbbb264f37" style="width: 100.0%; height: 100.0%;"><b>La Bellevilloise</b><br>Arrondissement : 20e<br>Type : MIXTE</div>`)[0];
+            popup_6f9e971e646e86644f03a43e136b0570.setContent(html_564868db52045672b2e1d3fbbb264f37);
+        
+
+        circle_marker_f9967465636aa00571bc1e6838870fbe.bindPopup(popup_6f9e971e646e86644f03a43e136b0570)
+        ;
+
+        
+    
+    
+            var circle_marker_991a3cc0aa9333f6a59c36b7a6e7496e = L.circleMarker(
+                [48.868, 2.423],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_81d1b99850e1fcb1fd320d706c4808ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77ac8940dd9252c3b2d1053cecb4d5f4 = $(`<div id="html_77ac8940dd9252c3b2d1053cecb4d5f4" style="width: 100.0%; height: 100.0%;"><b>Le Sample</b><br>Arrondissement : Bagnolet<br>Type : DK - DQR</div>`)[0];
+            popup_81d1b99850e1fcb1fd320d706c4808ec.setContent(html_77ac8940dd9252c3b2d1053cecb4d5f4);
+        
+
+        circle_marker_991a3cc0aa9333f6a59c36b7a6e7496e.bindPopup(popup_81d1b99850e1fcb1fd320d706c4808ec)
+        ;
+
+        
+    
+    
+            var circle_marker_cc508972fdf21cb73b20607c6036a4b9 = L.circleMarker(
+                [48.884, 2.381],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_12ff5152a9113c50810aeb8a044914a9);
+        
+    
+        var popup_9a8cd4dba03e61a8f5f007674f975591 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68acfbfb317f0e8b295d938a426191e9 = $(`<div id="html_68acfbfb317f0e8b295d938a426191e9" style="width: 100.0%; height: 100.0%;"><b>Pavillon Puebla</b><br>Arrondissement : 19e<br>Type : DK - DQR</div>`)[0];
+            popup_9a8cd4dba03e61a8f5f007674f975591.setContent(html_68acfbfb317f0e8b295d938a426191e9);
+        
+
+        circle_marker_cc508972fdf21cb73b20607c6036a4b9.bindPopup(popup_9a8cd4dba03e61a8f5f007674f975591)
+        ;
+
+        
+    
+</script>
+</html>

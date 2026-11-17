@@ -60,8 +60,12 @@
         
     
             var tile_layer_36a4036c8eaa0d648ed220d2b981be2c = L.tileLayer(
-                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+                "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Fond de carte \u0026copy; Esri, HERE, Garmin, \u0026copy; contributeurs OpenStreetMap", "maxZoom": 16}
+            ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
+            L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
+                {"maxZoom": 16}
             ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
         
     

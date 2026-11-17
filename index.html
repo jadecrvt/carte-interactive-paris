@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.2.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.2.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.2.0/dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fbad6511cd4eb8fbd9a4af50c5b95fcb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fbad6511cd4eb8fbd9a4af50c5b95fcb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fbad6511cd4eb8fbd9a4af50c5b95fcb = L.map(
+                "map_fbad6511cd4eb8fbd9a4af50c5b95fcb",
+                {
+                    center: [44.8378, -0.5792],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_36a4036c8eaa0d648ed220d2b981be2c = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
+        
+    
+            var circle_marker_1f18dfe8e077505261fed15f967110df = L.circleMarker(
+                [44.874, -0.556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
+        
+    
+        var popup_40e0177f325ae249b33054dc904baab9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e28f4de25df405a9e64d9b59bcc1ad0a = $(`<div id="html_e28f4de25df405a9e64d9b59bcc1ad0a" style="width: 100.0%; height: 100.0%;"><b>Berges de la Lune</b><br>Quartier : Bordeaux maritime<br>Type : MIXTE</div>`)[0];
+            popup_40e0177f325ae249b33054dc904baab9.setContent(html_e28f4de25df405a9e64d9b59bcc1ad0a);
+        
+
+        circle_marker_1f18dfe8e077505261fed15f967110df.bindPopup(popup_40e0177f325ae249b33054dc904baab9)
+        ;
+
+        
+    
+    
+            var circle_marker_c37992c0322e235de2aee24c342432c9 = L.circleMarker(
+                [44.827, -0.568],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
+        
+    
+        var popup_95f339a8acc888d53250dd4dc1c332b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e92c19cd00712114e9046484b28e2ac = $(`<div id="html_5e92c19cd00712114e9046484b28e2ac" style="width: 100.0%; height: 100.0%;"><b>Café Pompier</b><br>Quartier : Capucins-Victoire/Sainte-Croix<br>Type : MIXTE</div>`)[0];
+            popup_95f339a8acc888d53250dd4dc1c332b8.setContent(html_5e92c19cd00712114e9046484b28e2ac);
+        
+
+        circle_marker_c37992c0322e235de2aee24c342432c9.bindPopup(popup_95f339a8acc888d53250dd4dc1c332b8)
+        ;
+
+        
+    
+    
+            var circle_marker_53a0394591906477d4376fa73609e33b = L.circleMarker(
+                [44.83, -0.573],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
+        
+    
+        var popup_6fa27713e8c2325b22347449405e15ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f839bb35b4a6db8887027ecbff15f63 = $(`<div id="html_1f839bb35b4a6db8887027ecbff15f63" style="width: 100.0%; height: 100.0%;"><b>Chez Krapo</b><br>Quartier : Place de la Victoire<br>Type : DQR</div>`)[0];
+            popup_6fa27713e8c2325b22347449405e15ad.setContent(html_1f839bb35b4a6db8887027ecbff15f63);
+        
+
+        circle_marker_53a0394591906477d4376fa73609e33b.bindPopup(popup_6fa27713e8c2325b22347449405e15ad)
+        ;
+
+        
+    
+    
+            var circle_marker_203a49eb6f9c1ecd02b39f03d86092ff = L.circleMarker(
+                [44.866, -0.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
+        
+    
+        var popup_dcbb1f33eea091bdca0f905cfe6447a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0d2c5c4eced6f875a512d9cfe71b383 = $(`<div id="html_e0d2c5c4eced6f875a512d9cfe71b383" style="width: 100.0%; height: 100.0%;"><b>Iboat</b><br>Quartier : Bassins à Flots<br>Type : MIXTE</div>`)[0];
+            popup_dcbb1f33eea091bdca0f905cfe6447a0.setContent(html_e0d2c5c4eced6f875a512d9cfe71b383);
+        
+
+        circle_marker_203a49eb6f9c1ecd02b39f03d86092ff.bindPopup(popup_dcbb1f33eea091bdca0f905cfe6447a0)
+        ;
+
+        
+    
+    
+            var circle_marker_159a617e015d4e07e619400786bfbea7 = L.circleMarker(
+                [44.829, -0.563],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
+        
+    
+        var popup_1963ef67fe35a8f564011bfff1bd0d03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_192e2c078a07d5bb914fc914f8c661b5 = $(`<div id="html_192e2c078a07d5bb914fc914f8c661b5" style="width: 100.0%; height: 100.0%;"><b>La Tencha</b><br>Quartier : Saint-Michel<br>Type : DQR</div>`)[0];
+            popup_1963ef67fe35a8f564011bfff1bd0d03.setContent(html_192e2c078a07d5bb914fc914f8c661b5);
+        
+
+        circle_marker_159a617e015d4e07e619400786bfbea7.bindPopup(popup_1963ef67fe35a8f564011bfff1bd0d03)
+        ;
+
+        
+    
+    
+            var circle_marker_b4f59243bce6e004aa7088e143dbdc01 = L.circleMarker(
+                [44.857, -0.583],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_fbad6511cd4eb8fbd9a4af50c5b95fcb);
+        
+    
+        var popup_119e250d2109890f04c28b572720c850 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd7625428f6a8402ae94e0f9a4fac697 = $(`<div id="html_cd7625428f6a8402ae94e0f9a4fac697" style="width: 100.0%; height: 100.0%;"><b>Salle des fêtes du Grand Parc</b><br>Quartier : Grand Parc<br>Type : DQR - DQN</div>`)[0];
+            popup_119e250d2109890f04c28b572720c850.setContent(html_cd7625428f6a8402ae94e0f9a4fac697);
+        
+
+        circle_marker_b4f59243bce6e004aa7088e143dbdc01.bindPopup(popup_119e250d2109890f04c28b572720c850)
+        ;
+
+        
+    
+</script>
+</html>
